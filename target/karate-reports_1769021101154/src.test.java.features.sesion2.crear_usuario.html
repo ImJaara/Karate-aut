@@ -1,0 +1,1921 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("75a823f8-af11-4941-a833-feaeec36fe42",{name:"Matias.Solis"});
+    posthog.capture("report_feature",{karate_version:"1.3.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>src.test.java.features.sesion2.crear_usuario</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">7</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2026-01-21 12:34:01 p. m.</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[2.1:25]"><span>[2.1:25]</span> <span>crear usuario exitosamente con dataset</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2.2:25]"><span>[2.2:25]</span> <span>crear usuario exitosamente con dataset</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2.3:25]"><span>[2.3:25]</span> <span>crear usuario exitosamente con dataset</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2.4:25]"><span>[2.4:25]</span> <span>crear usuario exitosamente con dataset</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2.5:25]"><span>[2.5:25]</span> <span>crear usuario exitosamente con dataset</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2.6:25]"><span>[2.6:25]</span> <span>crear usuario exitosamente con dataset</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2.7:25]"><span>[2.7:25]</span> <span>crear usuario exitosamente con dataset</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/features/sesion2/crear_usuario.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Crear usuario en</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2.1:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">CrearUsuarioDataset</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2.1:25]</span>
+                <span class="scenario-name">crear usuario exitosamente con dataset</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1281</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://reqres.in/api/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header x-api-key = &#39;reqres-free-v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def json = read(&#39;classpath:json/empleadosConDatos.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">18</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request json</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1254</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.20">12:33:57.698 request:
+1 &gt; POST https://reqres.in/api/users
+1 &gt; x-api-key: reqres-free-v1
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 26
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;Juan&quot;,&quot;job&quot;:&quot;QA&quot;}
+
+12:33:58.679 response time in milliseconds: 980
+1 &lt; 401
+1 &lt; Date: Wed, 21 Jan 2026 15:33:58 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 709
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, x-api-key
+1 &lt; Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+1 &lt; Access-Control-Allow-Origin: http://localhost:5173
+1 &lt; Etag: W/&quot;2c5-tRXSyQ12FNdpou2a4B0QZ1b4hOE&quot;
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=cdMr9IxoKbhe5WxgsoGVdIsKUVksd7sM1fLeozqkdX8%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1769009638&quot;}],&quot;max_age&quot;:3600}
+1 &lt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=cdMr9IxoKbhe5WxgsoGVdIsKUVksd7sM1fLeozqkdX8%3D&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;ts=1769009638&quot;
+1 &lt; Server: cloudflare
+1 &lt; Vary: Origin
+1 &lt; Via: 1.1 heroku-router
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+1 &lt; X-Reqres-Docs: https://reqres.in
+1 &lt; X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+1 &lt; X-Reqres-Templates: https://app.reqres.in/templates
+1 &lt; X-Reqres-Upgrade: https://app.reqres.in/upgrade
+1 &lt; X-Request-Id: b72c42aa-906a-7d91-51d8-4c2c725914a3
+1 &lt; X-Xss-Protection: 1; mode=block
+1 &lt; cf-cache-status: DYNAMIC
+1 &lt; CF-RAY: 9c17df7dbc65379c-EZE
+{&quot;error&quot;:&quot;missing_api_key&quot;,&quot;message&quot;:&quot;The public /api/users demo does not need x-api-key. Remove the empty header or use your project key only for admin endpoints.&quot;,&quot;hint&quot;:&quot;Remove x-api-key for /api/users or switch to a project key for /api/collections.&quot;,&quot;docs_url&quot;:&quot;https://reqres.in/documentation&quot;,&quot;example&quot;:&quot;curl https://reqres.in/api/users/2&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;API key invalid or revoked. Create a new key in API Keys.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;Get a key&quot;,&quot;url&quot;:&quot;https://app.reqres.in/api-keys&quot;},&quot;context&quot;:&quot;invalid_key&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell failed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.21">12:33:58.683 src/test/java/features/sesion2/crear_usuario.feature:21
+Then status 201
+status code was: 401, expected: 201, response time in milliseconds: 980, url: https://reqres.in/api/users, response: 
+{&quot;error&quot;:&quot;missing_api_key&quot;,&quot;message&quot;:&quot;The public /api/users demo does not need x-api-key. Remove the empty header or use your project key only for admin endpoints.&quot;,&quot;hint&quot;:&quot;Remove x-api-key for /api/users or switch to a project key for /api/collections.&quot;,&quot;docs_url&quot;:&quot;https://reqres.in/documentation&quot;,&quot;example&quot;:&quot;curl https://reqres.in/api/users/2&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;API key invalid or revoked. Create a new key in API Keys.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;Get a key&quot;,&quot;url&quot;:&quot;https://app.reqres.in/api-keys&quot;},&quot;context&quot;:&quot;invalid_key&quot;}}
+src/test/java/features/sesion2/crear_usuario.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2.2:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">CrearUsuarioDataset</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2.2:25]</span>
+                <span class="scenario-name">crear usuario exitosamente con dataset</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>499</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://reqres.in/api/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header x-api-key = &#39;reqres-free-v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def json = read(&#39;classpath:json/empleadosConDatos.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request json</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">495</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.20">12:33:58.703 request:
+1 &gt; POST https://reqres.in/api/users
+1 &gt; x-api-key: reqres-free-v1
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 37
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;Diego&quot;,&quot;job&quot;:&quot;Scrum master&quot;}
+
+12:33:59.196 response time in milliseconds: 493
+1 &lt; 401
+1 &lt; Date: Wed, 21 Jan 2026 15:33:59 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 709
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, x-api-key
+1 &lt; Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+1 &lt; Access-Control-Allow-Origin: http://localhost:5173
+1 &lt; Etag: W/&quot;2c5-tRXSyQ12FNdpou2a4B0QZ1b4hOE&quot;
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=KlEl%2FDOqsOt2D2v0FZFWqv8ReqALZE%2FMg9Eva8wryUc%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1769009639&quot;}],&quot;max_age&quot;:3600}
+1 &lt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=KlEl%2FDOqsOt2D2v0FZFWqv8ReqALZE%2FMg9Eva8wryUc%3D&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;ts=1769009639&quot;
+1 &lt; Server: cloudflare
+1 &lt; Vary: Origin
+1 &lt; Via: 1.1 heroku-router
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+1 &lt; X-Reqres-Docs: https://reqres.in
+1 &lt; X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+1 &lt; X-Reqres-Templates: https://app.reqres.in/templates
+1 &lt; X-Reqres-Upgrade: https://app.reqres.in/upgrade
+1 &lt; X-Request-Id: 38cb5755-02c3-b9d4-9775-b31ea791de6b
+1 &lt; X-Xss-Protection: 1; mode=block
+1 &lt; cf-cache-status: DYNAMIC
+1 &lt; CF-RAY: 9c17df8329144af0-EZE
+{&quot;error&quot;:&quot;missing_api_key&quot;,&quot;message&quot;:&quot;The public /api/users demo does not need x-api-key. Remove the empty header or use your project key only for admin endpoints.&quot;,&quot;hint&quot;:&quot;Remove x-api-key for /api/users or switch to a project key for /api/collections.&quot;,&quot;docs_url&quot;:&quot;https://reqres.in/documentation&quot;,&quot;example&quot;:&quot;curl https://reqres.in/api/users/2&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;API key invalid or revoked. Create a new key in API Keys.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;Get a key&quot;,&quot;url&quot;:&quot;https://app.reqres.in/api-keys&quot;},&quot;context&quot;:&quot;invalid_key&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.21">12:33:59.196 src/test/java/features/sesion2/crear_usuario.feature:21
+Then status 201
+status code was: 401, expected: 201, response time in milliseconds: 493, url: https://reqres.in/api/users, response: 
+{&quot;error&quot;:&quot;missing_api_key&quot;,&quot;message&quot;:&quot;The public /api/users demo does not need x-api-key. Remove the empty header or use your project key only for admin endpoints.&quot;,&quot;hint&quot;:&quot;Remove x-api-key for /api/users or switch to a project key for /api/collections.&quot;,&quot;docs_url&quot;:&quot;https://reqres.in/documentation&quot;,&quot;example&quot;:&quot;curl https://reqres.in/api/users/2&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;API key invalid or revoked. Create a new key in API Keys.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;Get a key&quot;,&quot;url&quot;:&quot;https://app.reqres.in/api-keys&quot;},&quot;context&quot;:&quot;invalid_key&quot;}}
+src/test/java/features/sesion2/crear_usuario.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2.3:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">CrearUsuarioDataset</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2.3:25]</span>
+                <span class="scenario-name">crear usuario exitosamente con dataset</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>451</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://reqres.in/api/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header x-api-key = &#39;reqres-free-v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def json = read(&#39;classpath:json/empleadosConDatos.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request json</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">447</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.20">12:33:59.209 request:
+1 &gt; POST https://reqres.in/api/users
+1 &gt; x-api-key: reqres-free-v1
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 32
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;Francisco&quot;,&quot;job&quot;:&quot;DEV&quot;}
+
+12:33:59.653 response time in milliseconds: 444
+1 &lt; 401
+1 &lt; Date: Wed, 21 Jan 2026 15:33:59 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 709
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, x-api-key
+1 &lt; Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+1 &lt; Access-Control-Allow-Origin: http://localhost:5173
+1 &lt; Etag: W/&quot;2c5-tRXSyQ12FNdpou2a4B0QZ1b4hOE&quot;
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=KlEl%2FDOqsOt2D2v0FZFWqv8ReqALZE%2FMg9Eva8wryUc%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1769009639&quot;}],&quot;max_age&quot;:3600}
+1 &lt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=KlEl%2FDOqsOt2D2v0FZFWqv8ReqALZE%2FMg9Eva8wryUc%3D&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;ts=1769009639&quot;
+1 &lt; Server: cloudflare
+1 &lt; Vary: Origin
+1 &lt; Via: 1.1 heroku-router
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+1 &lt; X-Reqres-Docs: https://reqres.in
+1 &lt; X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+1 &lt; X-Reqres-Templates: https://app.reqres.in/templates
+1 &lt; X-Reqres-Upgrade: https://app.reqres.in/upgrade
+1 &lt; X-Request-Id: dfc7bbe0-fa80-e368-4e7c-95712f3fc162
+1 &lt; X-Xss-Protection: 1; mode=block
+1 &lt; cf-cache-status: DYNAMIC
+1 &lt; CF-RAY: 9c17df862f3bf635-EZE
+{&quot;error&quot;:&quot;missing_api_key&quot;,&quot;message&quot;:&quot;The public /api/users demo does not need x-api-key. Remove the empty header or use your project key only for admin endpoints.&quot;,&quot;hint&quot;:&quot;Remove x-api-key for /api/users or switch to a project key for /api/collections.&quot;,&quot;docs_url&quot;:&quot;https://reqres.in/documentation&quot;,&quot;example&quot;:&quot;curl https://reqres.in/api/users/2&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;API key invalid or revoked. Create a new key in API Keys.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;Get a key&quot;,&quot;url&quot;:&quot;https://app.reqres.in/api-keys&quot;},&quot;context&quot;:&quot;invalid_key&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.21">12:33:59.655 src/test/java/features/sesion2/crear_usuario.feature:21
+Then status 201
+status code was: 401, expected: 201, response time in milliseconds: 444, url: https://reqres.in/api/users, response: 
+{&quot;error&quot;:&quot;missing_api_key&quot;,&quot;message&quot;:&quot;The public /api/users demo does not need x-api-key. Remove the empty header or use your project key only for admin endpoints.&quot;,&quot;hint&quot;:&quot;Remove x-api-key for /api/users or switch to a project key for /api/collections.&quot;,&quot;docs_url&quot;:&quot;https://reqres.in/documentation&quot;,&quot;example&quot;:&quot;curl https://reqres.in/api/users/2&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;API key invalid or revoked. Create a new key in API Keys.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;Get a key&quot;,&quot;url&quot;:&quot;https://app.reqres.in/api-keys&quot;},&quot;context&quot;:&quot;invalid_key&quot;}}
+src/test/java/features/sesion2/crear_usuario.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2.4:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">CrearUsuarioDataset</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2.4:25]</span>
+                <span class="scenario-name">crear usuario exitosamente con dataset</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>467</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://reqres.in/api/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header x-api-key = &#39;reqres-free-v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def json = read(&#39;classpath:json/empleadosConDatos.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request json</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">465</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.20">12:33:59.663 request:
+1 &gt; POST https://reqres.in/api/users
+1 &gt; x-api-key: reqres-free-v1
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 30
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;Roberto&quot;,&quot;job&quot;:&quot;DEV&quot;}
+
+12:34:00.126 response time in milliseconds: 463
+1 &lt; 401
+1 &lt; Date: Wed, 21 Jan 2026 15:34:00 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 709
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, x-api-key
+1 &lt; Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+1 &lt; Access-Control-Allow-Origin: http://localhost:5173
+1 &lt; Etag: W/&quot;2c5-tRXSyQ12FNdpou2a4B0QZ1b4hOE&quot;
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=KlEl%2FDOqsOt2D2v0FZFWqv8ReqALZE%2FMg9Eva8wryUc%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1769009639&quot;}],&quot;max_age&quot;:3600}
+1 &lt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=KlEl%2FDOqsOt2D2v0FZFWqv8ReqALZE%2FMg9Eva8wryUc%3D&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;ts=1769009639&quot;
+1 &lt; Server: cloudflare
+1 &lt; Vary: Origin
+1 &lt; Via: 1.1 heroku-router
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+1 &lt; X-Reqres-Docs: https://reqres.in
+1 &lt; X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+1 &lt; X-Reqres-Templates: https://app.reqres.in/templates
+1 &lt; X-Reqres-Upgrade: https://app.reqres.in/upgrade
+1 &lt; X-Request-Id: a7ee892c-97a1-0c7c-b2ee-f4eda12ef335
+1 &lt; X-Xss-Protection: 1; mode=block
+1 &lt; cf-cache-status: DYNAMIC
+1 &lt; CF-RAY: 9c17df8919b51fe6-EZE
+{&quot;error&quot;:&quot;missing_api_key&quot;,&quot;message&quot;:&quot;The public /api/users demo does not need x-api-key. Remove the empty header or use your project key only for admin endpoints.&quot;,&quot;hint&quot;:&quot;Remove x-api-key for /api/users or switch to a project key for /api/collections.&quot;,&quot;docs_url&quot;:&quot;https://reqres.in/documentation&quot;,&quot;example&quot;:&quot;curl https://reqres.in/api/users/2&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;API key invalid or revoked. Create a new key in API Keys.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;Get a key&quot;,&quot;url&quot;:&quot;https://app.reqres.in/api-keys&quot;},&quot;context&quot;:&quot;invalid_key&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.21">12:34:00.126 src/test/java/features/sesion2/crear_usuario.feature:21
+Then status 201
+status code was: 401, expected: 201, response time in milliseconds: 463, url: https://reqres.in/api/users, response: 
+{&quot;error&quot;:&quot;missing_api_key&quot;,&quot;message&quot;:&quot;The public /api/users demo does not need x-api-key. Remove the empty header or use your project key only for admin endpoints.&quot;,&quot;hint&quot;:&quot;Remove x-api-key for /api/users or switch to a project key for /api/collections.&quot;,&quot;docs_url&quot;:&quot;https://reqres.in/documentation&quot;,&quot;example&quot;:&quot;curl https://reqres.in/api/users/2&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;API key invalid or revoked. Create a new key in API Keys.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;Get a key&quot;,&quot;url&quot;:&quot;https://app.reqres.in/api-keys&quot;},&quot;context&quot;:&quot;invalid_key&quot;}}
+src/test/java/features/sesion2/crear_usuario.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2.5:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">CrearUsuarioDataset</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2.5:25]</span>
+                <span class="scenario-name">crear usuario exitosamente con dataset</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>453</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://reqres.in/api/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header x-api-key = &#39;reqres-free-v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def json = read(&#39;classpath:json/empleadosConDatos.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request json</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">450</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.20">12:34:00.134 request:
+1 &gt; POST https://reqres.in/api/users
+1 &gt; x-api-key: reqres-free-v1
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 31
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;Cristobal&quot;,&quot;job&quot;:&quot;LT&quot;}
+
+12:34:00.583 response time in milliseconds: 448
+1 &lt; 401
+1 &lt; Date: Wed, 21 Jan 2026 15:34:00 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 709
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, x-api-key
+1 &lt; Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+1 &lt; Access-Control-Allow-Origin: http://localhost:5173
+1 &lt; Etag: W/&quot;2c5-tRXSyQ12FNdpou2a4B0QZ1b4hOE&quot;
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=Ta5NjIL3yquqUKxYfOR%2F0w%2BqyuaJZDi2s4j8SIYlvVA%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1769009640&quot;}],&quot;max_age&quot;:3600}
+1 &lt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=Ta5NjIL3yquqUKxYfOR%2F0w%2BqyuaJZDi2s4j8SIYlvVA%3D&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;ts=1769009640&quot;
+1 &lt; Server: cloudflare
+1 &lt; Vary: Origin
+1 &lt; Via: 1.1 heroku-router
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+1 &lt; X-Reqres-Docs: https://reqres.in
+1 &lt; X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+1 &lt; X-Reqres-Templates: https://app.reqres.in/templates
+1 &lt; X-Reqres-Upgrade: https://app.reqres.in/upgrade
+1 &lt; X-Request-Id: 89bd08b2-fc64-dce4-8b90-53427bbf363e
+1 &lt; X-Xss-Protection: 1; mode=block
+1 &lt; cf-cache-status: DYNAMIC
+1 &lt; CF-RAY: 9c17df8c0b59a78f-EZE
+{&quot;error&quot;:&quot;missing_api_key&quot;,&quot;message&quot;:&quot;The public /api/users demo does not need x-api-key. Remove the empty header or use your project key only for admin endpoints.&quot;,&quot;hint&quot;:&quot;Remove x-api-key for /api/users or switch to a project key for /api/collections.&quot;,&quot;docs_url&quot;:&quot;https://reqres.in/documentation&quot;,&quot;example&quot;:&quot;curl https://reqres.in/api/users/2&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;API key invalid or revoked. Create a new key in API Keys.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;Get a key&quot;,&quot;url&quot;:&quot;https://app.reqres.in/api-keys&quot;},&quot;context&quot;:&quot;invalid_key&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.21">12:34:00.583 src/test/java/features/sesion2/crear_usuario.feature:21
+Then status 201
+status code was: 401, expected: 201, response time in milliseconds: 448, url: https://reqres.in/api/users, response: 
+{&quot;error&quot;:&quot;missing_api_key&quot;,&quot;message&quot;:&quot;The public /api/users demo does not need x-api-key. Remove the empty header or use your project key only for admin endpoints.&quot;,&quot;hint&quot;:&quot;Remove x-api-key for /api/users or switch to a project key for /api/collections.&quot;,&quot;docs_url&quot;:&quot;https://reqres.in/documentation&quot;,&quot;example&quot;:&quot;curl https://reqres.in/api/users/2&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;API key invalid or revoked. Create a new key in API Keys.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;Get a key&quot;,&quot;url&quot;:&quot;https://app.reqres.in/api-keys&quot;},&quot;context&quot;:&quot;invalid_key&quot;}}
+src/test/java/features/sesion2/crear_usuario.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2.6:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">CrearUsuarioDataset</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2.6:25]</span>
+                <span class="scenario-name">crear usuario exitosamente con dataset</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>450</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://reqres.in/api/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header x-api-key = &#39;reqres-free-v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def json = read(&#39;classpath:json/empleadosConDatos.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request json</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">447</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="6.20">12:34:00.592 request:
+1 &gt; POST https://reqres.in/api/users
+1 &gt; x-api-key: reqres-free-v1
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 38
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;Pedro&quot;,&quot;job&quot;:&quot;Automatizador&quot;}
+
+12:34:01.037 response time in milliseconds: 445
+1 &lt; 401
+1 &lt; Date: Wed, 21 Jan 2026 15:34:01 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 709
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, x-api-key
+1 &lt; Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+1 &lt; Access-Control-Allow-Origin: http://localhost:5173
+1 &lt; Etag: W/&quot;2c5-tRXSyQ12FNdpou2a4B0QZ1b4hOE&quot;
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=Ta5NjIL3yquqUKxYfOR%2F0w%2BqyuaJZDi2s4j8SIYlvVA%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1769009640&quot;}],&quot;max_age&quot;:3600}
+1 &lt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=Ta5NjIL3yquqUKxYfOR%2F0w%2BqyuaJZDi2s4j8SIYlvVA%3D&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;ts=1769009640&quot;
+1 &lt; Server: cloudflare
+1 &lt; Vary: Origin
+1 &lt; Via: 1.1 heroku-router
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+1 &lt; X-Reqres-Docs: https://reqres.in
+1 &lt; X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+1 &lt; X-Reqres-Templates: https://app.reqres.in/templates
+1 &lt; X-Reqres-Upgrade: https://app.reqres.in/upgrade
+1 &lt; X-Request-Id: 269de8de-9173-2ed6-41a2-051c9e00bf9a
+1 &lt; X-Xss-Protection: 1; mode=block
+1 &lt; cf-cache-status: DYNAMIC
+1 &lt; CF-RAY: 9c17df8edf48c19e-EZE
+{&quot;error&quot;:&quot;missing_api_key&quot;,&quot;message&quot;:&quot;The public /api/users demo does not need x-api-key. Remove the empty header or use your project key only for admin endpoints.&quot;,&quot;hint&quot;:&quot;Remove x-api-key for /api/users or switch to a project key for /api/collections.&quot;,&quot;docs_url&quot;:&quot;https://reqres.in/documentation&quot;,&quot;example&quot;:&quot;curl https://reqres.in/api/users/2&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;API key invalid or revoked. Create a new key in API Keys.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;Get a key&quot;,&quot;url&quot;:&quot;https://app.reqres.in/api-keys&quot;},&quot;context&quot;:&quot;invalid_key&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="6.21">12:34:01.038 src/test/java/features/sesion2/crear_usuario.feature:21
+Then status 201
+status code was: 401, expected: 201, response time in milliseconds: 445, url: https://reqres.in/api/users, response: 
+{&quot;error&quot;:&quot;missing_api_key&quot;,&quot;message&quot;:&quot;The public /api/users demo does not need x-api-key. Remove the empty header or use your project key only for admin endpoints.&quot;,&quot;hint&quot;:&quot;Remove x-api-key for /api/users or switch to a project key for /api/collections.&quot;,&quot;docs_url&quot;:&quot;https://reqres.in/documentation&quot;,&quot;example&quot;:&quot;curl https://reqres.in/api/users/2&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;API key invalid or revoked. Create a new key in API Keys.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;Get a key&quot;,&quot;url&quot;:&quot;https://app.reqres.in/api-keys&quot;},&quot;context&quot;:&quot;invalid_key&quot;}}
+src/test/java/features/sesion2/crear_usuario.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="6.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2.7:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">CrearUsuarioDataset</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2.7:25]</span>
+                <span class="scenario-name">crear usuario exitosamente con dataset</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>473</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://reqres.in/api/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header x-api-key = &#39;reqres-free-v1&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def json = read(&#39;classpath:json/empleadosConDatos.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request json</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">471</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="7.20">12:34:01.047 request:
+1 &gt; POST https://reqres.in/api/users
+1 &gt; x-api-key: reqres-free-v1
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 29
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;Nicolas&quot;,&quot;job&quot;:&quot;PO&quot;}
+
+12:34:01.516 response time in milliseconds: 469
+1 &lt; 401
+1 &lt; Date: Wed, 21 Jan 2026 15:34:01 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 709
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, x-api-key
+1 &lt; Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+1 &lt; Access-Control-Allow-Origin: http://localhost:5173
+1 &lt; Etag: W/&quot;2c5-tRXSyQ12FNdpou2a4B0QZ1b4hOE&quot;
+1 &lt; Nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; Report-To: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=dBPoalIF7G3iLk3Nxfj%2Ft%2BfMGGzx7Ps5o0vQvRBXVlg%3D\u0026sid=c4c9725f-1ab0-44d8-820f-430df2718e11\u0026ts=1769009641&quot;}],&quot;max_age&quot;:3600}
+1 &lt; Reporting-Endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=dBPoalIF7G3iLk3Nxfj%2Ft%2BfMGGzx7Ps5o0vQvRBXVlg%3D&amp;sid=c4c9725f-1ab0-44d8-820f-430df2718e11&amp;ts=1769009641&quot;
+1 &lt; Server: cloudflare
+1 &lt; Vary: Origin
+1 &lt; Via: 1.1 heroku-router
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-Powered-By: ReqRes.in - Deploy backends in 30 seconds
+1 &lt; X-Reqres-Docs: https://reqres.in
+1 &lt; X-Reqres-Message: This API is powered by ReqRes. Deploy your own backend in 30 seconds!
+1 &lt; X-Reqres-Templates: https://app.reqres.in/templates
+1 &lt; X-Reqres-Upgrade: https://app.reqres.in/upgrade
+1 &lt; X-Request-Id: 7f97a2dc-5db0-4b97-387a-13949a5de86f
+1 &lt; X-Xss-Protection: 1; mode=block
+1 &lt; cf-cache-status: DYNAMIC
+1 &lt; CF-RAY: 9c17df91ccb32376-EZE
+{&quot;error&quot;:&quot;missing_api_key&quot;,&quot;message&quot;:&quot;The public /api/users demo does not need x-api-key. Remove the empty header or use your project key only for admin endpoints.&quot;,&quot;hint&quot;:&quot;Remove x-api-key for /api/users or switch to a project key for /api/collections.&quot;,&quot;docs_url&quot;:&quot;https://reqres.in/documentation&quot;,&quot;example&quot;:&quot;curl https://reqres.in/api/users/2&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;API key invalid or revoked. Create a new key in API Keys.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;Get a key&quot;,&quot;url&quot;:&quot;https://app.reqres.in/api-keys&quot;},&quot;context&quot;:&quot;invalid_key&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.21">
+      <div class="step-ref failed">21</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="7.21">12:34:01.516 src/test/java/features/sesion2/crear_usuario.feature:21
+Then status 201
+status code was: 401, expected: 201, response time in milliseconds: 469, url: https://reqres.in/api/users, response: 
+{&quot;error&quot;:&quot;missing_api_key&quot;,&quot;message&quot;:&quot;The public /api/users demo does not need x-api-key. Remove the empty header or use your project key only for admin endpoints.&quot;,&quot;hint&quot;:&quot;Remove x-api-key for /api/users or switch to a project key for /api/collections.&quot;,&quot;docs_url&quot;:&quot;https://reqres.in/documentation&quot;,&quot;example&quot;:&quot;curl https://reqres.in/api/users/2&quot;,&quot;_meta&quot;:{&quot;powered_by&quot;:&quot;ReqRes&quot;,&quot;docs_url&quot;:&quot;https://app.reqres.in/documentation&quot;,&quot;upgrade_url&quot;:&quot;https://app.reqres.in/upgrade&quot;,&quot;example_url&quot;:&quot;https://app.reqres.in/examples/notes-app&quot;,&quot;variant&quot;:&quot;v1_a&quot;,&quot;message&quot;:&quot;API key invalid or revoked. Create a new key in API Keys.&quot;,&quot;cta&quot;:{&quot;label&quot;:&quot;Get a key&quot;,&quot;url&quot;:&quot;https://app.reqres.in/api-keys&quot;},&quot;context&quot;:&quot;invalid_key&quot;}}
+src/test/java/features/sesion2/crear_usuario.feature:21
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="7.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("75a823f8-af11-4941-a833-feaeec36fe42",{name:"Matias.Solis"});
+    posthog.capture("report_feature",{karate_version:"1.3.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>src.test.java.features.sesion2.crear_usuario</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2026-01-21 12:27:06 p. m.</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>crear usuario exitosamente</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/features/sesion2/crear_usuario.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Crear usuario en</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">CrearUsuario</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name">crear usuario exitosamente</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>691</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://reqres.in/api/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def json = read(&#39;classpath:json/empleados.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">48</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#And request { name: &#39;Diego&#39;, job: &#39;lider&#39; }</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request json</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">636</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">12:27:06.617 request:
+1 &gt; POST https://reqres.in/api/users
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 30
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;Diego&quot;,&quot;job&quot;:&quot;lider&quot;}
+
+12:27:06.975 response time in milliseconds: 356
+1 &lt; 403
+1 &lt; Date: Wed, 21 Jan 2026 15:27:06 GMT
+1 &lt; Content-Type: text/html; charset=UTF-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: close
+1 &lt; accept-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+1 &lt; cf-mitigated: challenge
+1 &lt; critical-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+1 &lt; cross-origin-embedder-policy: require-corp
+1 &lt; cross-origin-opener-policy: same-origin
+1 &lt; cross-origin-resource-policy: same-origin
+1 &lt; origin-agent-cluster: ?1
+1 &lt; permissions-policy: accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+1 &lt; referrer-policy: same-origin
+1 &lt; server-timing: chlray;desc=&quot;9c17d5742b4e3f06&quot;
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+1 &lt; Expires: Thu, 01 Jan 1970 00:00:01 GMT
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v4?s=2ESoLODFiU8q9B0Bho3gyHaJ2930GcE8hHeLjXnOv7CV28RlqZyq7LsQZESoP2nGzU4LdqQp%2F2a3meq1rsBd6INm0GEu4iAgt%2B6Nzg4JHuJgMIukg7Ca2vffPw%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Vary: Accept-Encoding
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 9c17d5742b4e3f06-EZE
+&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en-US&quot;&gt;&lt;head&gt;&lt;title&gt;Just a moment...&lt;/title&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge&quot;&gt;&lt;meta name=&quot;robots&quot; content=&quot;noindex,nofollow&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;&lt;style&gt;*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,&quot;Noto Sans&quot;,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;,&quot;Noto Color Emoji&quot;}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width &lt;= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width &lt;= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challenge-error-text{background-image:url(&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+&quot;);background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme: dark){body{background-color:#222;color:#d9d9d9}}&lt;/style&gt;&lt;meta http-equiv=&quot;refresh&quot; content=&quot;360&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class=&quot;main-wrapper&quot; role=&quot;main&quot;&gt;&lt;div class=&quot;main-content&quot;&gt;&lt;noscript&gt;&lt;div class=&quot;h2&quot;&gt;&lt;span id=&quot;challenge-error-text&quot;&gt;Enable JavaScript and cookies to continue&lt;/span&gt;&lt;/div&gt;&lt;/noscript&gt;&lt;/div&gt;&lt;/div&gt;&lt;script&gt;(function(){window._cf_chl_opt = {cvId: &#39;3&#39;,cZone: &#39;reqres.in&#39;,cType: &#39;managed&#39;,cRay: &#39;9c17d5742b4e3f06&#39;,cH: &#39;8oLPMgZPz1P7.xY4avuUlzmF3RUDTMWPhM0MZyTLXEE-1769009226-1.2.1.1-QU215cUBLPN06oxYdSJ3iYe0e91v0xLE7MWRGeSDwCpsUvKbtIueerzIaNAF1pJi&#39;,cUPMDTk:&quot;\/api\/users?__cf_chl_tk=znWH4a9Sf4la2OrlYUnbamZqT1Cn2DF1SbPLINg0SEw-1769009226-1.0.1.1-fCMy.eAHvW8dSZT99vz0KxJPhdmwqgazN8rTA2H7D5Q&quot;,cFPWv: &#39;b&#39;,cITimeS: &#39;1769009226&#39;,cTplC:0,cTplV:5,cTplB: &#39;0&#39;,fa:&quot;\/api\/users?__cf_chl_f_tk=znWH4a9Sf4la2OrlYUnbamZqT1Cn2DF1SbPLINg0SEw-1769009226-1.0.1.1-fCMy.eAHvW8dSZT99vz0KxJPhdmwqgazN8rTA2H7D5Q&quot;,md: &#39;EQVmnWhkp4Tr2mAp6EslFarKfQTTSHU5wjE3tpxYOcY-1769009226-1.2.1.1-8uks_oF2G34KITPaNNVpfuV_fiKdl31p9d0vUGbtidbiSOYcYjVlIxOuTxHlQtIdA1_j0YkncjZmA5ULBawvaTkx6eFKYODmfZe1PerKybwUhyKgWDkgf1PuKaib5cmKuLZ1URkHHwAcpvkKumBCa9P08N4.mbm6okbKRIZsCZNSKQds7rgimUd8Idl1FYXYRfZ8NUPWQIuhM0JEkPnzAKd.kv1lWFZhkob02_HivfAbQV4pPkJyrFlUGzakkyVIBL6CMAy9bc53fJXiaWxKjH6WlhrZcOYUZRonOzl3cVrnnsvZvr6LQVQTLCVtgi1fCOB.If_Nac8O00AKGNUzBdNVdWApGZXY7XADp3mLjGZtuT_0Dl9KMr5pV.U4fpjQ2OC9InYqbRQyVwsGx3N6e0xsLQ6.fLMacVyXRLIVlq5MhVPoEQusH6HtJbSfA8gj5ulAF3ZpHc_tPrqk_NOp13i1H3.sQ3Ttt8WusZlXeJaxfguHYUW2XuOsogcq_JUigKOQYtafSKnIUAsnh.WiDPMMz.1LgP5Nywpw9TgU1zP9bNVc26C2WeZGDacxpRfeAMin5lnmiX9XLpF4GbVWwuF0KQo_MBuQrVj6fJIzSboSaeCnmphb8yiQwAMd2_smJ34l1Z5dxign5XXTlB0Uu3IUtENvloeyxffeNTXk0QHj9t1swo45laQG9axUG7IwL09vzUKdLks27Tt5NSKfHIqFBYw17xCFSp0Hv7tYLHLnbIfyzYSbFD_AzB3A31ZpC05Ga08gYr5yhR_JoRag9ycqlp81WeT5S9i1WdX1jwySvW_UiWNwYYifd54.4UWqeN3Qo2u1OtP.BvpqcSeHvia7GsDQButiSY7w9IijVks1NnasxTTLP1Uwcaw.Nj9JA6yPfhy7M2bkp3NktZYehK762TnVNVzFh7O0A9RyeGA&#39;,mdrd: &#39;9d7uogT7nuRjnX5J3PwMdlgBpoJcBEssKWIEx8RrHh8-1769009226-1.2.1.1-fktJDVnpVDqJ8i8K1hZZQamA5vJD8VwiW.UAmof1FMc.frR_GQABF3zNZHd1dpB4ufyhnbgMi.AAbqKPTBmF_0sYyikj_qP7rW76NVkT1VbjUtmC4t7rJEMHOUhBLVNWrkTLinvdeit.pHtKYZIJkczoKncRG9JMovfu7yl3dIBOJY6HZQd41CXZWN3ZkoON.0tgdb9EjGJWwkPhJcsjAvWs1MoZHeS9a2r4bWUTPjJ2qrnyJArRQmKaDn6_YPLLQj5A5rJbVESae8tthc4pnLgynFaDUrcy79I.6ziA9GOTfkPdmroDDT2azjnh9DKcp0Q.C4Qv96kkWFP_2DPc.iYjiCm6pQ1MSJFxqPTpqSfmspZlPzmOdoPM0FdZ5PluB5a0LMqEeoAdr0P7J.L2XtzG1MaaxxiFR_7cuiu2uLTPMK3EiQC5o1Il2BJ7LG357gP3I9NSCXCfzfJQwedCEgeoSGR1gwZfKM8o51z7z_cu1BJmPAXPohhA.9W5cXdDQ9YN8kKE8xHjGH9zm44H49.L1dHnN.tBw0xTnyWJlkPsxU_TbyW7380CVcZPDFFhDlQZO5ksaUFsqCLUuo7Yy_jTvYmgCAcUCNX6tzhtzTg7uyKEew7TbxkMsd8.ur0W.whTCz4BGgf9r5ahg6TZ246jDL2MFiDqX1MuKgJ4vnRbwclDTJ3BPVsyekrrmheiU5LDi1vdmKrvm9H0S5kwguEYAu6hk074Z7ldrPIT1OlQPIrz_A0sdEAutn7WC_7XAy4K7VRxOJcNSw6fho.74YMQs5Y_D_u3z3fq8pbZHJslH3TnNKJHboBv0KAVtvARbOyiKYB_p_WebaXuKxItCi4O3DTdWzznY8EEVzFX08lYLZgl6.DyZM04GpHU_uzDKPZXvaOfNGkRiauum5CIEQQL6HpYPhecq1pZ0OItP2ekQNCfbCu9UucKLLTL0Ac2nSbtQLu2g5laE.1QVvi.W2kw9MJEmhr7SQJ1ji0GpNAO1eS34iM1C0OyOMjXPgp9KzPhpq2JGAGRR3TGJYbBE8iqNGtQScWgnhoo8jeji_D872p51fC3oUHLrlfNdXV57chBlmfvB2DlNS0wvx7ZS41q32XUJUSOEJMBAC1hKzPNgQ4tG8Q1vu9vexGvDqd6PK.mZkhcYzMxbZiy3HygO0kKrE5b1QCqQfbFrNNiB0Ey2CECj.JagBZZV2mT9vBLiUVwF1TFFPixD0A0q.CFkmN_cd9IHRmsHllYZ7WIdttn3zrfUzJZ55WIYL5fIbYbg.dNhdYIZ7THG_sqhHfCNyzatLwAZ48Zo4iPr6.K0tIpBJzBVKnMUjNMlOxec3XnNhfDtrKrrpXf.CChx85bbycHUgRgmVWTW1zzq1sNI5QbxZBWKOB0jVhHo.j_wjv21X2qs2FNlOFgvO.bpVhnF.D4pVuHo4tvndaUYjdDoXSEkSgoOy2DwUZP_GyV3b.Wlk88r6nvQOk_yzUFD4w7FQYPu.cJs51O3J9FBzkp6BVLLvp3Lv8q.ooA.hKUDxJlSoPvg4ybOV3zRa4UQbhXDDAcmjkuhtvf6UvL22.bvdGyvXgufA52m3oBJNkwxcgCyzd6rt0Wt3UjEDEhaSTz21xG7CGz0ix3AlM0rki31Zgd0OYpFAT72TeN0WCfED0.S60dIa39YCxBntQv34Ed4PeyC8naPaYS7cO5_I9AlPEmSXXpi53RlNyG30QdrIxd3FWDgO7470fK199AdmB8BLJqpLosd6T1ZeqNHJhNgg6OTikFme3AJsjGMmDxmdwEauqh3FV4SR2JR6iWciBgoS.udDed6Y9TdV2Qr8G.4zVxUP419HB6ilp_.xcX54M2XmgO9r8ymUeFg0dL548geC1iskwAKv45gc3JmH3wIds.LRc1FEwiXVhrspOg.oiXqWH5CDA4iAOMdwljAwMUT1zMn0N93E3emQlm5RCkVGWTjK29sdBcjSq.f3ZEh44g5FASzD7XEpiiaBIgQP9GheS_QRaYDrZ0RyIloI8PI3Yy7Y.YMwj_OVaerDL1NuyGHnqXT94etWQ3cS90a3gJ2jGyrLkHu1TyxgeIRKh8wCa45juAKG5TMm2nsKDx5fz5yueizsy1pzbVHE60dbwQu6ADELT.nODM3UnSDq2YrtOEBHrLE7fanMqS51aJu63aivKI_YY5XW2Hfni6We5Z5vMrzQU2h11fCxGzOa0Ypx9aduWszRCbk6ZUGsBDBjkRkJ6XHSRnXYct83nPQ598q5fVWc_KsZEdLr_7OemyymWVwOOj3LQUHVrll1bR5Bh7wW4KTwPZkbmAZWWsJSvWPZDRv4Uc8fPtG3pDcnHELPjrKkOKzHepoEdzciUQfWUJTTIz.tgtgOFJHWPJupTszLKvN9JHch0nayn39PtD6jj4i8LFyEpqxUWwc.w9nQMQkqbitUJRvzgavKAUxVDwniOmyztvPWnyVwgRnsUZfrVvxHShqgE4.W7nkf1hUY6D5f3FOkmnMaXr.HQ7NP4YGhNhWYTWCsJur9N9.u1egAdzfZltmnkqqreADwq4zkzJDvUJUXSY77wRgsKyj.a_0pp.PRl16AZaBs04DFt4U1DuQy8pRnjkZ2HBxgiUZyBK&#39;,};var a = document.createElement(&#39;script&#39;);a.src = &#39;/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c17d5742b4e3f06&#39;;window._cf_chl_opt.cOgUHash = location.hash === &#39;&#39; &amp;&amp; location.href.indexOf(&#39;#&#39;) !== -1 ? &#39;#&#39; : location.hash;window._cf_chl_opt.cOgUQuery = location.search === &#39;&#39; &amp;&amp; location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf(&#39;?&#39;) !== -1 ? &#39;?&#39; : location.search;if (window.history &amp;&amp; window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,&quot;\/api\/users?__cf_chl_rt_tk=znWH4a9Sf4la2OrlYUnbamZqT1Cn2DF1SbPLINg0SEw-1769009226-1.0.1.1-fCMy.eAHvW8dSZT99vz0KxJPhdmwqgazN8rTA2H7D5Q&quot;+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName(&#39;head&#39;)[0].appendChild(a);}());&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref failed">9</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell failed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">12:27:06.985 src/test/java/features/sesion2/crear_usuario.feature:9
+Then status 201
+status code was: 403, expected: 201, response time in milliseconds: 356, url: https://reqres.in/api/users, response: 
+&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en-US&quot;&gt;&lt;head&gt;&lt;title&gt;Just a moment...&lt;/title&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge&quot;&gt;&lt;meta name=&quot;robots&quot; content=&quot;noindex,nofollow&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;&lt;style&gt;*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,&quot;Noto Sans&quot;,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;,&quot;Noto Color Emoji&quot;}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width &lt;= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width &lt;= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challenge-error-text{background-image:url(&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+&quot;);background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme: dark){body{background-color:#222;color:#d9d9d9}}&lt;/style&gt;&lt;meta http-equiv=&quot;refresh&quot; content=&quot;360&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class=&quot;main-wrapper&quot; role=&quot;main&quot;&gt;&lt;div class=&quot;main-content&quot;&gt;&lt;noscript&gt;&lt;div class=&quot;h2&quot;&gt;&lt;span id=&quot;challenge-error-text&quot;&gt;Enable JavaScript and cookies to continue&lt;/span&gt;&lt;/div&gt;&lt;/noscript&gt;&lt;/div&gt;&lt;/div&gt;&lt;script&gt;(function(){window._cf_chl_opt = {cvId: &#39;3&#39;,cZone: &#39;reqres.in&#39;,cType: &#39;managed&#39;,cRay: &#39;9c17d5742b4e3f06&#39;,cH: &#39;8oLPMgZPz1P7.xY4avuUlzmF3RUDTMWPhM0MZyTLXEE-1769009226-1.2.1.1-QU215cUBLPN06oxYdSJ3iYe0e91v0xLE7MWRGeSDwCpsUvKbtIueerzIaNAF1pJi&#39;,cUPMDTk:&quot;\/api\/users?__cf_chl_tk=znWH4a9Sf4la2OrlYUnbamZqT1Cn2DF1SbPLINg0SEw-1769009226-1.0.1.1-fCMy.eAHvW8dSZT99vz0KxJPhdmwqgazN8rTA2H7D5Q&quot;,cFPWv: &#39;b&#39;,cITimeS: &#39;1769009226&#39;,cTplC:0,cTplV:5,cTplB: &#39;0&#39;,fa:&quot;\/api\/users?__cf_chl_f_tk=znWH4a9Sf4la2OrlYUnbamZqT1Cn2DF1SbPLINg0SEw-1769009226-1.0.1.1-fCMy.eAHvW8dSZT99vz0KxJPhdmwqgazN8rTA2H7D5Q&quot;,md: &#39;EQVmnWhkp4Tr2mAp6EslFarKfQTTSHU5wjE3tpxYOcY-1769009226-1.2.1.1-8uks_oF2G34KITPaNNVpfuV_fiKdl31p9d0vUGbtidbiSOYcYjVlIxOuTxHlQtIdA1_j0YkncjZmA5ULBawvaTkx6eFKYODmfZe1PerKybwUhyKgWDkgf1PuKaib5cmKuLZ1URkHHwAcpvkKumBCa9P08N4.mbm6okbKRIZsCZNSKQds7rgimUd8Idl1FYXYRfZ8NUPWQIuhM0JEkPnzAKd.kv1lWFZhkob02_HivfAbQV4pPkJyrFlUGzakkyVIBL6CMAy9bc53fJXiaWxKjH6WlhrZcOYUZRonOzl3cVrnnsvZvr6LQVQTLCVtgi1fCOB.If_Nac8O00AKGNUzBdNVdWApGZXY7XADp3mLjGZtuT_0Dl9KMr5pV.U4fpjQ2OC9InYqbRQyVwsGx3N6e0xsLQ6.fLMacVyXRLIVlq5MhVPoEQusH6HtJbSfA8gj5ulAF3ZpHc_tPrqk_NOp13i1H3.sQ3Ttt8WusZlXeJaxfguHYUW2XuOsogcq_JUigKOQYtafSKnIUAsnh.WiDPMMz.1LgP5Nywpw9TgU1zP9bNVc26C2WeZGDacxpRfeAMin5lnmiX9XLpF4GbVWwuF0KQo_MBuQrVj6fJIzSboSaeCnmphb8yiQwAMd2_smJ34l1Z5dxign5XXTlB0Uu3IUtENvloeyxffeNTXk0QHj9t1swo45laQG9axUG7IwL09vzUKdLks27Tt5NSKfHIqFBYw17xCFSp0Hv7tYLHLnbIfyzYSbFD_AzB3A31ZpC05Ga08gYr5yhR_JoRag9ycqlp81WeT5S9i1WdX1jwySvW_UiWNwYYifd54.4UWqeN3Qo2u1OtP.BvpqcSeHvia7GsDQButiSY7w9IijVks1NnasxTTLP1Uwcaw.Nj9JA6yPfhy7M2bkp3NktZYehK762TnVNVzFh7O0A9RyeGA&#39;,mdrd: &#39;9d7uogT7nuRjnX5J3PwMdlgBpoJcBEssKWIEx8RrHh8-1769009226-1.2.1.1-fktJDVnpVDqJ8i8K1hZZQamA5vJD8VwiW.UAmof1FMc.frR_GQABF3zNZHd1dpB4ufyhnbgMi.AAbqKPTBmF_0sYyikj_qP7rW76NVkT1VbjUtmC4t7rJEMHOUhBLVNWrkTLinvdeit.pHtKYZIJkczoKncRG9JMovfu7yl3dIBOJY6HZQd41CXZWN3ZkoON.0tgdb9EjGJWwkPhJcsjAvWs1MoZHeS9a2r4bWUTPjJ2qrnyJArRQmKaDn6_YPLLQj5A5rJbVESae8tthc4pnLgynFaDUrcy79I.6ziA9GOTfkPdmroDDT2azjnh9DKcp0Q.C4Qv96kkWFP_2DPc.iYjiCm6pQ1MSJFxqPTpqSfmspZlPzmOdoPM0FdZ5PluB5a0LMqEeoAdr0P7J.L2XtzG1MaaxxiFR_7cuiu2uLTPMK3EiQC5o1Il2BJ7LG357gP3I9NSCXCfzfJQwedCEgeoSGR1gwZfKM8o51z7z_cu1BJmPAXPohhA.9W5cXdDQ9YN8kKE8xHjGH9zm44H49.L1dHnN.tBw0xTnyWJlkPsxU_TbyW7380CVcZPDFFhDlQZO5ksaUFsqCLUuo7Yy_jTvYmgCAcUCNX6tzhtzTg7uyKEew7TbxkMsd8.ur0W.whTCz4BGgf9r5ahg6TZ246jDL2MFiDqX1MuKgJ4vnRbwclDTJ3BPVsyekrrmheiU5LDi1vdmKrvm9H0S5kwguEYAu6hk074Z7ldrPIT1OlQPIrz_A0sdEAutn7WC_7XAy4K7VRxOJcNSw6fho.74YMQs5Y_D_u3z3fq8pbZHJslH3TnNKJHboBv0KAVtvARbOyiKYB_p_WebaXuKxItCi4O3DTdWzznY8EEVzFX08lYLZgl6.DyZM04GpHU_uzDKPZXvaOfNGkRiauum5CIEQQL6HpYPhecq1pZ0OItP2ekQNCfbCu9UucKLLTL0Ac2nSbtQLu2g5laE.1QVvi.W2kw9MJEmhr7SQJ1ji0GpNAO1eS34iM1C0OyOMjXPgp9KzPhpq2JGAGRR3TGJYbBE8iqNGtQScWgnhoo8jeji_D872p51fC3oUHLrlfNdXV57chBlmfvB2DlNS0wvx7ZS41q32XUJUSOEJMBAC1hKzPNgQ4tG8Q1vu9vexGvDqd6PK.mZkhcYzMxbZiy3HygO0kKrE5b1QCqQfbFrNNiB0Ey2CECj.JagBZZV2mT9vBLiUVwF1TFFPixD0A0q.CFkmN_cd9IHRmsHllYZ7WIdttn3zrfUzJZ55WIYL5fIbYbg.dNhdYIZ7THG_sqhHfCNyzatLwAZ48Zo4iPr6.K0tIpBJzBVKnMUjNMlOxec3XnNhfDtrKrrpXf.CChx85bbycHUgRgmVWTW1zzq1sNI5QbxZBWKOB0jVhHo.j_wjv21X2qs2FNlOFgvO.bpVhnF.D4pVuHo4tvndaUYjdDoXSEkSgoOy2DwUZP_GyV3b.Wlk88r6nvQOk_yzUFD4w7FQYPu.cJs51O3J9FBzkp6BVLLvp3Lv8q.ooA.hKUDxJlSoPvg4ybOV3zRa4UQbhXDDAcmjkuhtvf6UvL22.bvdGyvXgufA52m3oBJNkwxcgCyzd6rt0Wt3UjEDEhaSTz21xG7CGz0ix3AlM0rki31Zgd0OYpFAT72TeN0WCfED0.S60dIa39YCxBntQv34Ed4PeyC8naPaYS7cO5_I9AlPEmSXXpi53RlNyG30QdrIxd3FWDgO7470fK199AdmB8BLJqpLosd6T1ZeqNHJhNgg6OTikFme3AJsjGMmDxmdwEauqh3FV4SR2JR6iWciBgoS.udDed6Y9TdV2Qr8G.4zVxUP419HB6ilp_.xcX54M2XmgO9r8ymUeFg0dL548geC1iskwAKv45gc3JmH3wIds.LRc1FEwiXVhrspOg.oiXqWH5CDA4iAOMdwljAwMUT1zMn0N93E3emQlm5RCkVGWTjK29sdBcjSq.f3ZEh44g5FASzD7XEpiiaBIgQP9GheS_QRaYDrZ0RyIloI8PI3Yy7Y.YMwj_OVaerDL1NuyGHnqXT94etWQ3cS90a3gJ2jGyrLkHu1TyxgeIRKh8wCa45juAKG5TMm2nsKDx5fz5yueizsy1pzbVHE60dbwQu6ADELT.nODM3UnSDq2YrtOEBHrLE7fanMqS51aJu63aivKI_YY5XW2Hfni6We5Z5vMrzQU2h11fCxGzOa0Ypx9aduWszRCbk6ZUGsBDBjkRkJ6XHSRnXYct83nPQ598q5fVWc_KsZEdLr_7OemyymWVwOOj3LQUHVrll1bR5Bh7wW4KTwPZkbmAZWWsJSvWPZDRv4Uc8fPtG3pDcnHELPjrKkOKzHepoEdzciUQfWUJTTIz.tgtgOFJHWPJupTszLKvN9JHch0nayn39PtD6jj4i8LFyEpqxUWwc.w9nQMQkqbitUJRvzgavKAUxVDwniOmyztvPWnyVwgRnsUZfrVvxHShqgE4.W7nkf1hUY6D5f3FOkmnMaXr.HQ7NP4YGhNhWYTWCsJur9N9.u1egAdzfZltmnkqqreADwq4zkzJDvUJUXSY77wRgsKyj.a_0pp.PRl16AZaBs04DFt4U1DuQy8pRnjkZ2HBxgiUZyBK&#39;,};var a = document.createElement(&#39;script&#39;);a.src = &#39;/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c17d5742b4e3f06&#39;;window._cf_chl_opt.cOgUHash = location.hash === &#39;&#39; &amp;&amp; location.href.indexOf(&#39;#&#39;) !== -1 ? &#39;#&#39; : location.hash;window._cf_chl_opt.cOgUQuery = location.search === &#39;&#39; &amp;&amp; location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf(&#39;?&#39;) !== -1 ? &#39;?&#39; : location.search;if (window.history &amp;&amp; window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,&quot;\/api\/users?__cf_chl_rt_tk=znWH4a9Sf4la2OrlYUnbamZqT1Cn2DF1SbPLINg0SEw-1769009226-1.0.1.1-fCMy.eAHvW8dSZT99vz0KxJPhdmwqgazN8rTA2H7D5Q&quot;+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName(&#39;head&#39;)[0].appendChild(a);}());&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;
+src/test/java/features/sesion2/crear_usuario.feature:9
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref skipped">10</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

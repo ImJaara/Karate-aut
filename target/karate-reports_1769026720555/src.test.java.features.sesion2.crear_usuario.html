@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("75a823f8-af11-4941-a833-feaeec36fe42",{name:"Matias.Solis"});
+    posthog.capture("report_feature",{karate_version:"1.3.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>src.test.java.features.sesion2.crear_usuario</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2026-01-21 03:45:06 p. m.</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>crear usuario exitosamente</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/features/sesion2/crear_usuario.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Crear usuario en</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">CrearUsuario</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name">crear usuario exitosamente</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>4637</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://reqres.in/api/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#And header x-api-key = &#39;reqres-free-v1&#39;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def json = read(&#39;classpath:json/empleados.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">48</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#And request { name: &#39;Diego&#39;, job: &#39;lider&#39; }</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request json</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4583</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">15:45:02.341 request:
+1 &gt; POST https://reqres.in/api/users
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 30
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;Diego&quot;,&quot;job&quot;:&quot;lider&quot;}
+
+15:45:06.634 response time in milliseconds: 4291
+1 &lt; 403
+1 &lt; Date: Wed, 21 Jan 2026 18:45:06 GMT
+1 &lt; Content-Type: text/html; charset=UTF-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: close
+1 &lt; accept-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+1 &lt; cf-mitigated: challenge
+1 &lt; critical-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+1 &lt; cross-origin-embedder-policy: require-corp
+1 &lt; cross-origin-opener-policy: same-origin
+1 &lt; cross-origin-resource-policy: same-origin
+1 &lt; origin-agent-cluster: ?1
+1 &lt; permissions-policy: accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+1 &lt; referrer-policy: same-origin
+1 &lt; server-timing: chlray;desc=&quot;9c18f77bcf021ea3&quot;
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+1 &lt; Expires: Thu, 01 Jan 1970 00:00:01 GMT
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v4?s=q6i0zlT8vFYvgTs0SOuyepufyODDoWAGkOU4Y2Yrr6VGI10Thr9jZwS65jHGnRjQ1fbvEanApyKddIm28dBdhovMxipiD6TigICF9eLLi5MZMIQcsaYqaHYKMQ%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Vary: Accept-Encoding
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 9c18f77bcf021ea3-EZE
+&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en-US&quot;&gt;&lt;head&gt;&lt;title&gt;Just a moment...&lt;/title&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge&quot;&gt;&lt;meta name=&quot;robots&quot; content=&quot;noindex,nofollow&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;&lt;style&gt;*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,&quot;Noto Sans&quot;,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;,&quot;Noto Color Emoji&quot;}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width &lt;= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width &lt;= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challenge-error-text{background-image:url(&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+&quot;);background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme: dark){body{background-color:#222;color:#d9d9d9}}&lt;/style&gt;&lt;meta http-equiv=&quot;refresh&quot; content=&quot;360&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class=&quot;main-wrapper&quot; role=&quot;main&quot;&gt;&lt;div class=&quot;main-content&quot;&gt;&lt;noscript&gt;&lt;div class=&quot;h2&quot;&gt;&lt;span id=&quot;challenge-error-text&quot;&gt;Enable JavaScript and cookies to continue&lt;/span&gt;&lt;/div&gt;&lt;/noscript&gt;&lt;/div&gt;&lt;/div&gt;&lt;script&gt;(function(){window._cf_chl_opt = {cvId: &#39;3&#39;,cZone: &#39;reqres.in&#39;,cType: &#39;managed&#39;,cRay: &#39;9c18f77bcf021ea3&#39;,cH: &#39;SqQbJKfZs1nAPxrSj8Uzu0DzzJCW9olowda07gcbH8s-1769021106-1.2.1.1-tSxFqamQPjoicpBikCAsn6lEw0Nvi7bgd0sbqaIie8Fh0PYisHO0sPjaW9m4JxGG&#39;,cUPMDTk:&quot;\/api\/users?__cf_chl_tk=g3e7.e9pKm702W8PcfhwfRZjZD7yOeQoCFmOdwa0hPk-1769021106-1.0.1.1-VQEVrlQBteYTqLrSABfu0aNwNPJEKaD.5vziAtQIqRw&quot;,cFPWv: &#39;b&#39;,cITimeS: &#39;1769021106&#39;,cTplC:0,cTplV:5,cTplB: &#39;0&#39;,fa:&quot;\/api\/users?__cf_chl_f_tk=g3e7.e9pKm702W8PcfhwfRZjZD7yOeQoCFmOdwa0hPk-1769021106-1.0.1.1-VQEVrlQBteYTqLrSABfu0aNwNPJEKaD.5vziAtQIqRw&quot;,md: &#39;pPc6V29mQfXFC7bc3c7fGumZrK.7N7.oTja.VTT0gzY-1769021106-1.2.1.1-.4HdXxHL2v2lFPHA5poykNqywcAPZA8kw29MwPsFi7sZptp351AcDq0dii4qkUBvDseNZLLf1jQjEnrWn6E0tiH1XprRXF9ZHX1Atf1NxZCgo.0hs5uqdukUzfg4FiqxZ4eBDA9PyV3HAlApLJf4LC0glmXe.kIoUtTQteA7PmQPGXCuB5YpdFKM0LC.RigzXlgULEQZkK5OeYmNC3tEHe_EeARcee.xTpQyUlM6zkugI5tr5VNMiqQtWz5keh7f41kktA4kd95Gtrzz7fR6270cBfE7Kon8_pW5GRfUptKxI48myBSoTpK.W_8B9oBFODDhz_GKWIif8qzdZmy87PeIzY2hk1SKm4ilR001r0jTPBIgKZUZbqX8lIwaWbm.n0GRSmjF8Jt6Bi5qx_LRskcRRvoH8aeu0mBGU6lzu46PT3UvVwNWHT3wHJ2pdFF1U0QPihQuf57_oE5CKQKExFt.jymY5_ZX8UWa13Vh3bVCO1vIWT3cip4WvAsyMd3Cj.U_vf6LS2oOVD70cl9Kp_6wHgGf_emN_uuzTUcdhG5e8ejpcAC79wm9cnyACN0USZED9NicmRhT_xq5GHdudlWK13W1YkI.4FVuInT_DMKYhE_uO_kheVdF2tisgGo1DfHkYVBMpqqWvC3ZIaepJBM1AEHULcEgxwUZ8BM7BVZCbD4TDOkx5leNH75HOJO0HndWLcD_2mLMAK0YduswO7rovB.ENZTSoREiXKi7gUImDljH2kGK_G_oI1WtOO8I9_L2pd_JruPrZyDiz9wBBcnv44VZ4_q.MUU.8S.Dlb33bVJsmX1DbNvJTwY.8pVvRPmS2CfxseKqJDU51tyReBRs4oGFAtOhDiJo72iBxf6BLmwrbSyQhCx4.Y3JnZ_N79sgBcGtRllro38kQxHkYoy237JUOn2exNkiE37rDVE&#39;,mdrd: &#39;7N.Y6gxHZWV0vCwbyecLQAH.msGg3gm9vCu5POGuTro-1769021106-1.2.1.1-u6.5ocFbFhjHu7VTWyuNkfKhayUupbopJ53UfxIjLK34x89cfQF0C..dcLQpyHx6cF7jqklVacSEMtxThU3u9iHZShzZK40gZ562epbhnZLQ3rgd.tf09R7OQBSJhUJ125H1qtKZHShBpt3KG6C7KAiuMnd6.044tkcOJxyqJlKZSHfh1GPOW70jeuU6pB0HoiyCEM76rHuj2.E74oOaTUYxvxBIfjgXiizi8QIjfmWr.Z.n6NR6F5Q9tgSLMNFDqy_r09FE9B9eI2.i1O3mi06QYZU_86.JM_276N16oAsdFN3Ls_CjCKs6FATxXqqcR9zZJDI6uigmvzc1k8rxNo5T2I3K7_8CePmU9sJdCgPLO2ir36FVsNvVP7Opz157S3Cuz0WzVjZzBbNULqLoVQOvlQDh6JLYrAI6QOBAyNe8xtmnqAMdbeh6ie6Q8GlHYxBMrS6YVXGpD9NlpTZ80x7kuGNTS0K3GTMexdfx7jJSURNgK_CNQ.mkv818Cul82duPgsYgXI1eAJRq4xX.U3WpELgK9XRqZJA3dFLu7Lzw.DPtNJW1Yy.PY.qbrUVy0QJ.mU5kc7pJXSy1mtQbczNsyrYjhqHYkNekiLUuIrvW.GRTkO1Ga9H_N3gtC2HvQoMeqinavaj4r003xLx.a5OKP9higtme9U0qjGZ.diTCU_TJZxJa7urq54e0JI_aw3p8p6mAZH27SoWQaR5OfZd8OomydapPBz1h_kEgS4abyaJ0Y12c.wikGC1gNKgoRu_axWHXZcIOBpBRU0DGEV9ljwDVUQ9MPhzG5pIpT825ZEq4PpOZpM1JtCbP3_ofe.m4qCkOsjNk6WBtzgpN7gtDga77_mSOWoRI6E7wPoFYq3JZW8YsQAfagWBBQG3jdir1eOtHDRcumkNjjMIrpS5yHj.wTPkap8_T0Jrwk9sJibIrczq4_7nkWmqm0hLkdNRiQfG9K9nGaLTlyOUAlCgrfVEe6gnBWiNkhTBPG2.biHIXw0preeSSqBICK70r2LIT5Hu.UrhXxVejcsQTn_S344B7vmDo3aDq_Th7WysDOlBpvHY37kQmBlXfz1zjeRJcGHWASP.EndadBMK.cRWv4wnUQ0se8DZHipduZkfH6k.edMAD.kizFiZdNOn95Mz_YHR9Vo_Ygry3JSFsCahb8GRCJj7wV7d5m5GjLz_Rn4eaC_6dRfRJnlQgtg_Ybr73SU8kkAMpT17aS09lGgoV2vneUW22UqPmT7Z21bjA77OQRSlOnHMRbVbsYYbeCTvDdIwqDn.XvLOZ6SAZVZlcuXB.MnL.EsO_nK079PU7JX.vP8ELq1hsJxaX4AKTrqYi4xP_Z1Edp4M4jHKzBRgFoYD4bgNQxNMYivN29qtJz4NbdMnZuGXeZOXIKRRa23MvyQRx1meUsbmMlKi0Pq5db.merGqY8yqbW3tlvlKeleKITGkIUjVuPxTiZMEW8xPOP0PHpYOMqhoTZRxTKYT6CbdM6vYSHmOV8W9LspvWIjelHvYcAeWRoIiFuzxV43Rlk_T2v8yU_ynemMn2vjNRhewXi4Gl8niP_KiMnUbAuTy88rkJ.bNGv1p9T.QQ_Sk.nNzTmDHfp.pMxdmYifkBPqXM10V36LjnG.XEEC0494p849gx7Qva6E0S12pArsGddIvLhjwN5cpSkDJPUSLDQka0v6GFQ17MH7Afk74zX6cRX.Ejy3yCHrXeQE4ugcJ64h1Guj8xEh7b1pvAAju26W.mQecsCZ8VDsxd4b12IlWQswM9rxd1rt2J99NNa861Elug48W1NqgOjlTFO5ZCG48StTa9rR1repJGUH7HPXc2TXxpW_q3DKKQk8tAav3LMo1rSX9CV_joEl7qGB13DkYiiA3jZ9RhfthfowQXmAhAzyuumcL1MvorN.d7Exxzp95Mtu.TsHG4lQTS9bw3uDRN1gqAVOgZYtSo5lVMgSR_AcSggjCfDvSSv1m8nNkZF2zyzBcEJ8j1KWywsQPTJrFT4LuFqDtSGjDUmCTzXCxPYIocrD8pKHQFNG7Vfs6b_FO1QOGcBe3v2UEKHOGEEIdQZGRVwRQPc7cxK6TuFyCvGHAdHdG7aV4Qs1ZEQzw8jYWzDFLEVhFU_jl1v5PuoepkjaXYxOFo5hWCdDCmHqvLl4CDYinL5d8VgbsdNkyRe7jnsR16uL0E07XNXLN_eOVrGjFSfxGQMcBgra0N1aXqVGn7APSM9bOfPEDRIXBXmRfrs8ujnwIlpa9rn.tndmwEcy4xv47_kRzoFdDt6fe7_y4Ty.urzbRtZGbVi5kf73jYPwuehxrOQEH04SduIE80jz6vTCyQo2FRU1s7XuwKd38jYsNCyJ_zLUtYZmAAhmD5wkccIPq09QCBa6HKBS..4_0.5Nksy5ZHvR2EV5mtDCE8rqTUhJF5ouvPTqLDespycMeflGGqqE8IBXrdlEyNjE9K5vWr6sX2tUqtJ6rC_W.BfeW3YA3wOOCVHORsfS912EZLTWpmF6iqCXTcqjhLdHVOfUYs43szzoIiAH1DqQOPgc51riut89rNxwslRiVbH5o0YRUm7zj7HtBbjG9x11u7ie0hP3L7zBVRWGzDPQytp_UdZ.zijSZ_E4Qpe.bte1LVya4ruodffA&#39;,};var a = document.createElement(&#39;script&#39;);a.src = &#39;/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c18f77bcf021ea3&#39;;window._cf_chl_opt.cOgUHash = location.hash === &#39;&#39; &amp;&amp; location.href.indexOf(&#39;#&#39;) !== -1 ? &#39;#&#39; : location.hash;window._cf_chl_opt.cOgUQuery = location.search === &#39;&#39; &amp;&amp; location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf(&#39;?&#39;) !== -1 ? &#39;?&#39; : location.search;if (window.history &amp;&amp; window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,&quot;\/api\/users?__cf_chl_rt_tk=g3e7.e9pKm702W8PcfhwfRZjZD7yOeQoCFmOdwa0hPk-1769021106-1.0.1.1-VQEVrlQBteYTqLrSABfu0aNwNPJEKaD.5vziAtQIqRw&quot;+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName(&#39;head&#39;)[0].appendChild(a);}());&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref failed">10</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell failed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">15:45:06.645 src/test/java/features/sesion2/crear_usuario.feature:10
+Then status 201
+status code was: 403, expected: 201, response time in milliseconds: 4291, url: https://reqres.in/api/users, response: 
+&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en-US&quot;&gt;&lt;head&gt;&lt;title&gt;Just a moment...&lt;/title&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge&quot;&gt;&lt;meta name=&quot;robots&quot; content=&quot;noindex,nofollow&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;&lt;style&gt;*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,&quot;Noto Sans&quot;,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;,&quot;Noto Color Emoji&quot;}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width &lt;= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width &lt;= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challenge-error-text{background-image:url(&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+&quot;);background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme: dark){body{background-color:#222;color:#d9d9d9}}&lt;/style&gt;&lt;meta http-equiv=&quot;refresh&quot; content=&quot;360&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;div class=&quot;main-wrapper&quot; role=&quot;main&quot;&gt;&lt;div class=&quot;main-content&quot;&gt;&lt;noscript&gt;&lt;div class=&quot;h2&quot;&gt;&lt;span id=&quot;challenge-error-text&quot;&gt;Enable JavaScript and cookies to continue&lt;/span&gt;&lt;/div&gt;&lt;/noscript&gt;&lt;/div&gt;&lt;/div&gt;&lt;script&gt;(function(){window._cf_chl_opt = {cvId: &#39;3&#39;,cZone: &#39;reqres.in&#39;,cType: &#39;managed&#39;,cRay: &#39;9c18f77bcf021ea3&#39;,cH: &#39;SqQbJKfZs1nAPxrSj8Uzu0DzzJCW9olowda07gcbH8s-1769021106-1.2.1.1-tSxFqamQPjoicpBikCAsn6lEw0Nvi7bgd0sbqaIie8Fh0PYisHO0sPjaW9m4JxGG&#39;,cUPMDTk:&quot;\/api\/users?__cf_chl_tk=g3e7.e9pKm702W8PcfhwfRZjZD7yOeQoCFmOdwa0hPk-1769021106-1.0.1.1-VQEVrlQBteYTqLrSABfu0aNwNPJEKaD.5vziAtQIqRw&quot;,cFPWv: &#39;b&#39;,cITimeS: &#39;1769021106&#39;,cTplC:0,cTplV:5,cTplB: &#39;0&#39;,fa:&quot;\/api\/users?__cf_chl_f_tk=g3e7.e9pKm702W8PcfhwfRZjZD7yOeQoCFmOdwa0hPk-1769021106-1.0.1.1-VQEVrlQBteYTqLrSABfu0aNwNPJEKaD.5vziAtQIqRw&quot;,md: &#39;pPc6V29mQfXFC7bc3c7fGumZrK.7N7.oTja.VTT0gzY-1769021106-1.2.1.1-.4HdXxHL2v2lFPHA5poykNqywcAPZA8kw29MwPsFi7sZptp351AcDq0dii4qkUBvDseNZLLf1jQjEnrWn6E0tiH1XprRXF9ZHX1Atf1NxZCgo.0hs5uqdukUzfg4FiqxZ4eBDA9PyV3HAlApLJf4LC0glmXe.kIoUtTQteA7PmQPGXCuB5YpdFKM0LC.RigzXlgULEQZkK5OeYmNC3tEHe_EeARcee.xTpQyUlM6zkugI5tr5VNMiqQtWz5keh7f41kktA4kd95Gtrzz7fR6270cBfE7Kon8_pW5GRfUptKxI48myBSoTpK.W_8B9oBFODDhz_GKWIif8qzdZmy87PeIzY2hk1SKm4ilR001r0jTPBIgKZUZbqX8lIwaWbm.n0GRSmjF8Jt6Bi5qx_LRskcRRvoH8aeu0mBGU6lzu46PT3UvVwNWHT3wHJ2pdFF1U0QPihQuf57_oE5CKQKExFt.jymY5_ZX8UWa13Vh3bVCO1vIWT3cip4WvAsyMd3Cj.U_vf6LS2oOVD70cl9Kp_6wHgGf_emN_uuzTUcdhG5e8ejpcAC79wm9cnyACN0USZED9NicmRhT_xq5GHdudlWK13W1YkI.4FVuInT_DMKYhE_uO_kheVdF2tisgGo1DfHkYVBMpqqWvC3ZIaepJBM1AEHULcEgxwUZ8BM7BVZCbD4TDOkx5leNH75HOJO0HndWLcD_2mLMAK0YduswO7rovB.ENZTSoREiXKi7gUImDljH2kGK_G_oI1WtOO8I9_L2pd_JruPrZyDiz9wBBcnv44VZ4_q.MUU.8S.Dlb33bVJsmX1DbNvJTwY.8pVvRPmS2CfxseKqJDU51tyReBRs4oGFAtOhDiJo72iBxf6BLmwrbSyQhCx4.Y3JnZ_N79sgBcGtRllro38kQxHkYoy237JUOn2exNkiE37rDVE&#39;,mdrd: &#39;7N.Y6gxHZWV0vCwbyecLQAH.msGg3gm9vCu5POGuTro-1769021106-1.2.1.1-u6.5ocFbFhjHu7VTWyuNkfKhayUupbopJ53UfxIjLK34x89cfQF0C..dcLQpyHx6cF7jqklVacSEMtxThU3u9iHZShzZK40gZ562epbhnZLQ3rgd.tf09R7OQBSJhUJ125H1qtKZHShBpt3KG6C7KAiuMnd6.044tkcOJxyqJlKZSHfh1GPOW70jeuU6pB0HoiyCEM76rHuj2.E74oOaTUYxvxBIfjgXiizi8QIjfmWr.Z.n6NR6F5Q9tgSLMNFDqy_r09FE9B9eI2.i1O3mi06QYZU_86.JM_276N16oAsdFN3Ls_CjCKs6FATxXqqcR9zZJDI6uigmvzc1k8rxNo5T2I3K7_8CePmU9sJdCgPLO2ir36FVsNvVP7Opz157S3Cuz0WzVjZzBbNULqLoVQOvlQDh6JLYrAI6QOBAyNe8xtmnqAMdbeh6ie6Q8GlHYxBMrS6YVXGpD9NlpTZ80x7kuGNTS0K3GTMexdfx7jJSURNgK_CNQ.mkv818Cul82duPgsYgXI1eAJRq4xX.U3WpELgK9XRqZJA3dFLu7Lzw.DPtNJW1Yy.PY.qbrUVy0QJ.mU5kc7pJXSy1mtQbczNsyrYjhqHYkNekiLUuIrvW.GRTkO1Ga9H_N3gtC2HvQoMeqinavaj4r003xLx.a5OKP9higtme9U0qjGZ.diTCU_TJZxJa7urq54e0JI_aw3p8p6mAZH27SoWQaR5OfZd8OomydapPBz1h_kEgS4abyaJ0Y12c.wikGC1gNKgoRu_axWHXZcIOBpBRU0DGEV9ljwDVUQ9MPhzG5pIpT825ZEq4PpOZpM1JtCbP3_ofe.m4qCkOsjNk6WBtzgpN7gtDga77_mSOWoRI6E7wPoFYq3JZW8YsQAfagWBBQG3jdir1eOtHDRcumkNjjMIrpS5yHj.wTPkap8_T0Jrwk9sJibIrczq4_7nkWmqm0hLkdNRiQfG9K9nGaLTlyOUAlCgrfVEe6gnBWiNkhTBPG2.biHIXw0preeSSqBICK70r2LIT5Hu.UrhXxVejcsQTn_S344B7vmDo3aDq_Th7WysDOlBpvHY37kQmBlXfz1zjeRJcGHWASP.EndadBMK.cRWv4wnUQ0se8DZHipduZkfH6k.edMAD.kizFiZdNOn95Mz_YHR9Vo_Ygry3JSFsCahb8GRCJj7wV7d5m5GjLz_Rn4eaC_6dRfRJnlQgtg_Ybr73SU8kkAMpT17aS09lGgoV2vneUW22UqPmT7Z21bjA77OQRSlOnHMRbVbsYYbeCTvDdIwqDn.XvLOZ6SAZVZlcuXB.MnL.EsO_nK079PU7JX.vP8ELq1hsJxaX4AKTrqYi4xP_Z1Edp4M4jHKzBRgFoYD4bgNQxNMYivN29qtJz4NbdMnZuGXeZOXIKRRa23MvyQRx1meUsbmMlKi0Pq5db.merGqY8yqbW3tlvlKeleKITGkIUjVuPxTiZMEW8xPOP0PHpYOMqhoTZRxTKYT6CbdM6vYSHmOV8W9LspvWIjelHvYcAeWRoIiFuzxV43Rlk_T2v8yU_ynemMn2vjNRhewXi4Gl8niP_KiMnUbAuTy88rkJ.bNGv1p9T.QQ_Sk.nNzTmDHfp.pMxdmYifkBPqXM10V36LjnG.XEEC0494p849gx7Qva6E0S12pArsGddIvLhjwN5cpSkDJPUSLDQka0v6GFQ17MH7Afk74zX6cRX.Ejy3yCHrXeQE4ugcJ64h1Guj8xEh7b1pvAAju26W.mQecsCZ8VDsxd4b12IlWQswM9rxd1rt2J99NNa861Elug48W1NqgOjlTFO5ZCG48StTa9rR1repJGUH7HPXc2TXxpW_q3DKKQk8tAav3LMo1rSX9CV_joEl7qGB13DkYiiA3jZ9RhfthfowQXmAhAzyuumcL1MvorN.d7Exxzp95Mtu.TsHG4lQTS9bw3uDRN1gqAVOgZYtSo5lVMgSR_AcSggjCfDvSSv1m8nNkZF2zyzBcEJ8j1KWywsQPTJrFT4LuFqDtSGjDUmCTzXCxPYIocrD8pKHQFNG7Vfs6b_FO1QOGcBe3v2UEKHOGEEIdQZGRVwRQPc7cxK6TuFyCvGHAdHdG7aV4Qs1ZEQzw8jYWzDFLEVhFU_jl1v5PuoepkjaXYxOFo5hWCdDCmHqvLl4CDYinL5d8VgbsdNkyRe7jnsR16uL0E07XNXLN_eOVrGjFSfxGQMcBgra0N1aXqVGn7APSM9bOfPEDRIXBXmRfrs8ujnwIlpa9rn.tndmwEcy4xv47_kRzoFdDt6fe7_y4Ty.urzbRtZGbVi5kf73jYPwuehxrOQEH04SduIE80jz6vTCyQo2FRU1s7XuwKd38jYsNCyJ_zLUtYZmAAhmD5wkccIPq09QCBa6HKBS..4_0.5Nksy5ZHvR2EV5mtDCE8rqTUhJF5ouvPTqLDespycMeflGGqqE8IBXrdlEyNjE9K5vWr6sX2tUqtJ6rC_W.BfeW3YA3wOOCVHORsfS912EZLTWpmF6iqCXTcqjhLdHVOfUYs43szzoIiAH1DqQOPgc51riut89rNxwslRiVbH5o0YRUm7zj7HtBbjG9x11u7ie0hP3L7zBVRWGzDPQytp_UdZ.zijSZ_E4Qpe.bte1LVya4ruodffA&#39;,};var a = document.createElement(&#39;script&#39;);a.src = &#39;/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=9c18f77bcf021ea3&#39;;window._cf_chl_opt.cOgUHash = location.hash === &#39;&#39; &amp;&amp; location.href.indexOf(&#39;#&#39;) !== -1 ? &#39;#&#39; : location.hash;window._cf_chl_opt.cOgUQuery = location.search === &#39;&#39; &amp;&amp; location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf(&#39;?&#39;) !== -1 ? &#39;?&#39; : location.search;if (window.history &amp;&amp; window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,&quot;\/api\/users?__cf_chl_rt_tk=g3e7.e9pKm702W8PcfhwfRZjZD7yOeQoCFmOdwa0hPk-1769021106-1.0.1.1-VQEVrlQBteYTqLrSABfu0aNwNPJEKaD.5vziAtQIqRw&quot;+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName(&#39;head&#39;)[0].appendChild(a);}());&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;
+src/test/java/features/sesion2/crear_usuario.feature:10
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref skipped">11</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
