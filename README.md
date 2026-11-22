@@ -8,27 +8,47 @@ Automated API testing framework built with Karate DSL, Java and Gradle.
 
 This project was created to automate REST API testing using Karate DSL.
 
-The framework includes reusable test scenarios, request validation, response assertions and Gradle-based execution.
+The framework includes reusable test scenarios, request validation, response assertions, HTTP logging, sensitive data masking and Gradle-based execution.
 
 ---
 
 ## Technologies
 
-* Karate DSL
-* Java
-* Gradle
-* JUnit
+- Java
+- Karate DSL
+- Gradle
+- JUnit 5
+- REST API
+- JSON
 
+---
+
+## Development Environment
+
+The project was developed and tested using the following environment:
+
+| Tool | Version |
+|---|---|
+| IDE | IntelliJ IDEA Community Edition 2025.3 |
+| Java SDK (JDK) | 11 |
+| Gradle | 8.2 |
+| Karate DSL | 1.3.1 |
+| JUnit | 5 |
+| Version Control | Git for Windows |
+| Terminal | Git Bash (UCRT64) |
+ 
 ---
 
 ## Features
 
-* Automated API testing
-* Request and response validation
-* Reusable scenarios
-* JSON assertions
-* Gradle test execution
-* Test reporting
+- Automated API testing
+- Request and response validation
+- Reusable scenarios
+- JSON assertions
+- HTTP request and response logging
+- Sensitive data masking
+- Gradle test execution
+- HTML test reporting
 
 ---
 
@@ -36,10 +56,10 @@ The framework includes reusable test scenarios, request validation, response ass
 
 ```text
 src
- └── test
-      ├── java
-      │    └── features
-      └── resources
+└── test
+     ├── java
+     │    └── features
+     └── resources
 ```
 
 ---
@@ -58,6 +78,22 @@ Run a specific test:
 ./gradlew test --tests "ClassName"
 ```
 
+Run tests using a specific environment:
+
+```bash
+./gradlew test -Dkarate.env=qa
+```
+
+---
+
+## Reports
+
+After execution, reports can be found in:
+
+```text
+build/karate-reports/karate-summary.html
+```
+
 ---
 
 ## Example Scenario
@@ -73,18 +109,8 @@ Scenario: Get user information
 
 ---
 
-## Reports
-
-After execution, reports can be found in:
-
-```text
-build/reports/tests/test/index.html
-```
-
----
-
 ## Author
 
 Matias Solis
 
-GitHub: [https://github.com/ImJaara](https://github.com/ImJaara)
+GitHub: [ImJaara](https://github.com/ImJaara)
