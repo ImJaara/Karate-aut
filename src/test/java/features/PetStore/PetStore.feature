@@ -3,7 +3,27 @@ Feature: PetStore
   @crearPet
   Scenario: Crear mascota
     Given url 'https://petstore.swagger.io/v2/pet'
-    And request {  id: 1,  category": {    id: 1,    name": 'Perros'  },  name: 'Anabel',  photoUrls: [    'google.com'  ],  tags: [    {      id: 1,      name: 'Pequeña'    }  ],  status: 'available'}
+    And request
+"""
+{
+  id: 1,
+  category: {
+    id: 1,
+    name: 'Perros'
+  },
+  name: 'Anabel',
+  photoUrls: [
+    'google.com'
+  ],
+  tags: [
+    {
+      id: 1,
+      name: 'Pequeña'
+    }
+  ],
+  status: 'available'
+}
+"""
     When method post
     Then status 200
     And print response
